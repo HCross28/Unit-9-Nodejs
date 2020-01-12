@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.1",
     "inquirer": "^7.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCross28/Unit-9-Nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HCross28/Unit-9-Nodejs/issues"
+  },
+  "homepage": "https://github.com/HCross28/Unit-9-Nodejs#readme"
 }
