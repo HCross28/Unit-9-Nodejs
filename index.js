@@ -35,14 +35,15 @@ inquirer
         .then(function(res) {
             try{
                 const resData = res.data;
-                    resData.forEach(function(res){
+                    console.log(resData[0].owner.login);
+                    /*resData.forEach(function(res){
                         var data = res.data;
                  
-                    console.log(data.username,
+                    console.log(/* data.username,
                      data.public_repos,
                      data.location,
-                     data.bio);
-                    });
+                     data.bio); 
+                    }); */
                     
                 
             }catch(err){
